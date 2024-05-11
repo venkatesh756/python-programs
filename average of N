@@ -1,0 +1,9 @@
+#write a program that reads an input n and prints the average of N from 1
+N=int(input("Enter the input ")) #input
+i=1 #intialization
+sum=0
+while i<=N: #condition for termination
+  sum=sum+i
+  i+=1  # updation
+avg=sum/N # avg formulae
+print(avg)
