@@ -7,3 +7,31 @@ while i<=N: #condition for termination
   i+=1  # updation
 avg=sum/N # avg formulae
 print(avg)
+#write a program that reads an input n and prints the cube of N numbers from 1
+int_data=int(input())
+i=1
+while i<=int_data:
+  print(i**3)
+  i+=1
+#write a program that reads two inputs one as row and another one as column and print the rectangle based on the given input
+print("Become the programmer you're meant to be!")
+rows=int(input())
+columns=int(input())
+counter1=0
+while counter1 <rows:
+  counter=0
+  while counter <columns:
+     print("* ",end="")
+     counter+=1
+  counter1+=1
+  print()
+#write a program that reads an input n numbers and prints the product of given n numbers
+n=int(input())
+count=0
+product=1
+while count<n:
+  number=int(input())
+  product*=number
+  count+=1
+print(product)
+
